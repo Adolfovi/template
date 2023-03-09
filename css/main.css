@@ -128,6 +128,15 @@ body{
     display: block;
 }
 
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 
 .section .title{
     font-size: 2rem;
@@ -181,6 +190,15 @@ body{
     margin-top: 2rem;
 }
 
+.three-container .three-columns .watch-image img{
+    width: 6rem;
+}
+
+.three-container .three-columns .watch-image .full{
+width: 100%;
+margin-top: 2rem;
+}
+
 .section .separator{
     display: flex;
     align-items: center;
@@ -197,4 +215,225 @@ body{
 
 .spacing-with-four{
     height: 4rem;
+}
+
+.spacing-with-two{
+    height: 2rem;
+}
+
+.section .three-columns{
+    width: 30%;
+}
+
+.section .three-columns-horizontal-alineation{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #374048;
+}
+
+.section .three-columns-horizontal-alineation-without-with{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #374048;
+}
+
+.section .three-columns-horizontal-alineation-without-with .title-and-info{
+
+}
+
+
+
+
+.section .three-columns-horizontal-alineation-icon{
+
+}
+
+.section .three-columns-horizontal-alineation .watch-image{
+    margin-top: -2.9rem;
+    margin-right: 0.4rem;
+    color: #0072ff;
+}
+
+.section .three-columns-horizontal-alineation-without-with .watch-image{
+    margin-top: -2.5rem;
+    margin-right: 0.4rem;
+    color: #0072ff;
+}
+
+
+.section .three-columns-horizontal-alineation .watch-image img{
+    width: 2rem;
+    padding-right: 0.6rem;
+}
+
+
+.section .three-columns-horizontal-alineation-without-with .watch-image img{
+    width: 2rem;
+    padding-right: 0.6rem;
+}
+
+.section .three-columns-horizontal-alineation .title-and-info p{
+        margin-top: -1.6rem;
+}
+
+.section .three-columns-horizontal-alineation-without-with .title-and-info p{
+    margin-top: -1.1rem;
+    font-size: 0.9rem;
+    color: #82898f;
+    
+}
+
+
+
+
+
+.section .three-columns-horizontal-alineation .title-and-info{
+    text-align: left;
+    padding-right: 0rem;
+}
+
+.section .three-columns-horizontal-alineation-without-with .title-and-info{
+    text-align: left;
+    padding-right: 0rem;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+.section .three-columns-horizontal-alineation .title-and-info h2{
+    padding-right: 1.2rem;
+}
+
+
+
+.section .columns-separators{
+    width: 5%;
+}
+
+.three-container{
+    display: flex;
+    text-align: center;
+    width: 70rem;
+    justify-content: center;
+}
+
+.three-container-horizontal{
+    display: flex;
+    text-align: center;
+    width: 74rem;
+    justify-content: flex-end;
+}
+
+.three-container-vertical{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 74rem;
+    justify-content: flex-end;
+}
+
+.three-container .three-columns .title{
+    text-align: center;
+}
+
+.three-container .three-columns .info{
+    width: 100%;
+}
+
+.three-container .columns-separators{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.blue{
+    background-color: #f9f9f9;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.font-size-one-rem{
+    font-size: 1rem !important;
+}
+
+.font-size-one-half-rem{
+    font-size: 1.5rem !important;
+}
+
+.margin-top-minus-three{
+    margin-top: -3rem;
+}
+
+.three-container-horizontal-with-vertical-columns{
+    display: flex;
+}
+
+.big-width{
+    width: 87rem !important;
+}
+
+.margin-top{
+    margin-top: 4rem !important;
+}
+
+.four-container{
+
+}
+
+.section .four-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 60rem;
+}
+
+.section .four-container .four-columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.section .four-container .title{
+    color: #0084ff;
+    font-size: 0.7rem;
+}
+.section .four-container .subtitle{
+    margin-top: -1.4rem;
+    color: #dddddd;
+    font-size: 0.7rem;
+
+}
+.section .four-container .price{
+    margin-top: -1rem;
+    color: #f62;
+    font-weight: bolder;
+}
+.section .four-container .button button{
+    border-radius: 1rem;
+    padding: 2px 33px 0;
+    color: #b4bcc3;
+    border-color: gray;
+    background-color: white;
+    margin-top: 1rem;
 }
